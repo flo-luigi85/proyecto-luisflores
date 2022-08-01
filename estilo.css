@@ -2,3 +2,11 @@
     margin: 0;
     padding: 0;
 }
+p {
+    color: blue;
+    font-size: 2rem;
+    background-color: burlywood;
+}
+.texto {
+    color: red;
+}
