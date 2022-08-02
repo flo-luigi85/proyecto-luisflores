@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diseñador Frelanncer</title>
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="shortcut icon" href="../assets/favicon.png">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 class="titulo">Luis F Flores <span>Freelancer</span></h1>
+    </header> 
+    <div class="nav-bg">
+      <nav class="nav-pcl contenedor">
+        <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../pages/servicios.html">Servicios</a></li>
+        <li><a href="../pages/clientes.html">Clientes</a></li>
+        <li><a href="../pages/galeria.html">Galeria</a></li>
+        <li><a href="../pages/contacto.html">Contacto</a></li>
+      </ul>
+      <div class="hide">
+        <i class="fa fa-bars" aria-hidden="true"></i> Menu
+      </div>
+      </nav>
+    </div>
+    <section class="form">
+      <h2>Contacto</h2>
+
+      <form class="formulario">
+          <fieldset>
+              <legend>Contactános llenando todos los campos</legend>
+              <div class="contenedor-campos">
+                <div class="campo">
+                    <label>Nombre</label>
+                    <input class="input-text" type="text" placeholder="Tu Nombre">
+                </div>
+
+                <div class="campo">
+                    <label>Teléfono</label>
+                    <input class="input-text" type="tel" placeholder="Tu Teléfono">
+                </div>
+
+                <div class="campo">
+                    <label>Correo</label>
+                    <input class="input-text" type="email" placeholder="Tu Email">
+                </div>
+        
+                <div class="campo">
+                    <label>Mensaje</label>
+                    <textarea class="input-text"></textarea>
+                </div>
+            </div> <!-- .contenedor-campos -->
+
+              <div class="alinear-derecha">
+                  <input class="boton" type="submit" value="Enviar">
+              </div>
+          </fieldset>
+      </form>
+  </section>
+</main>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script>
+    $(".hide").on('click', function() {
+      $("nav ul").toggle('slow');
+    })
+  </script>
+<footer class="footer">
+  <p>Todos los derechos reservados. Luis Fernando Flores Freelancer</p>
+</footer>
+  </body>
+</html>
