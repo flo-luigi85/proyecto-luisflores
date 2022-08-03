@@ -294,7 +294,7 @@ header {
 }
 .text3 {
   text-align: justify;
-  padding-top: 30pxs;  
+  margin-top: 30px; 
 }
 .servicio {
   display: flex;
