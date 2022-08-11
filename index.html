@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Diseñador Frelanncer</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="shortcut icon" href="../assets/favicon.png" />
     <link
       href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,700;1,400&display=swap"
@@ -28,7 +29,7 @@
       <p class="text-light mb-0 p-2 fs-2 fw-bold">Luis F Flores <span class="fs-6">Frelanncer</span></p>
   </header>
 <!--Menu-->
-  <nav class=" bg-header navbar navbar-expand-lg navbar-light p-3" id="menu">
+  <nav class=" bg-header navbar navbar-expand-lg navbar-light p-3 pb-0" id="menu">
       <div class="container">
         <a class="navbar-brand" href="./index.html">
             <span class="fs-2 text-white fw-bold">Frelanncer</span>
@@ -91,7 +92,6 @@
         <a class="boton" href="pages/contacto.html">Contactar</a>
       </div>
     </section>
-
     <!--Contenido principal / Servicios-->
     <main class="container sombra">
       <h2 class="fs-1 text-dark d-flex justify-content-center pb-3">Mis Servicios</h2>
@@ -120,11 +120,10 @@
             <circle cx="16.5" cy="10.5" r=".5" fill="currentColor" />
           </svg>
         </div>
-        <p class="pIndex fs-4">
+        <p class="fs-4">
           Class aptent taciti sociosqu litora torquent per conubia himenaeos.
         </p>
       </section>
-
       <section class="servicio">
         <h3 class="fs-3 text-success">Aplicaciones Web</h3>
         <div class="iconos">
@@ -151,7 +150,6 @@
             <line x1="9" y1="18" x2="9" y2="21" />
             <line x1="15" y1="18" x2="15" y2="21" />
           </svg>
-
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="icon icon-tabler icon-tabler-brand-apple"
@@ -171,12 +169,10 @@
             <path d="M12 4a2 2 0 0 0 2 -2a2 2 0 0 0 -2 2" />
           </svg>
         </div>
-
-        <p class="pIndex fs-4">
+        <p class="fs-4">
           Class aptent taciti sociosqu litora torquent per conubia himenaeos.
         </p>
       </section>
-
       <section class="servicio">
         <h3 class="fs-3 text-success">E-commerce</h3>
         <div class="iconos">
@@ -199,15 +195,11 @@
             <line x1="11" y1="15" x2="13" y2="15" />
           </svg>
         </div>
-        <p class="pIndex fs-4">
+        <p class="fs-4">
           Class aptent taciti sociosqu litora torquent per conubia himenaeos.
         </p>
       </section>
     </div>
-    <!--======================%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
-   
-    <!--==================================Contenido Contacto-->
-   
     <!---=============================Contenido Mapa========================-->
     <section>
       <div
@@ -241,17 +233,14 @@
     <!--==================================Contacto / Formolario-->
     <section>
       <h2 class="fs-1 text-dark d-flex justify-content-center pt-5 pb-5">Contacto</h2>
-
-      <form class="formulario">
+      <form class="formulario pb-5">
         <fieldset>
           <legend>Contactános llenando todos los campos</legend>
-
           <div class="contenedor-campos">
             <div class="campo">
               <label class="fs-3">Nombre</label>
               <input class="input-text" type="text" placeholder="Tu Nombre" />
             </div>
-
             <div class="campo">
               <label class="fs-3">Teléfono</label>
               <input
@@ -260,19 +249,16 @@
                 placeholder="Tu Teléfono"
               />
             </div>
-
             <div class="campo">
               <label class="fs-3">Correo</label>
               <input class="input-text" type="email" placeholder="Tu Email" />
             </div>
-
             <div class="campo">
               <label class="fs-3">Mensaje</label>
               <textarea class="input-text"></textarea>
             </div>
           </div>
-          <!-- .contenedor-campos -->
-
+          <!--contenedor-campos -->
           <div class="alinear-derecha flex">
             <input class="boton w-sm-100" type="submit" value="Enviar" />
           </div>
@@ -280,9 +266,6 @@
       </form>
     </section>
   </main>
-
-
-
     <footer
       class="w-100 d-flex aling-items-center justify-content-center flex-wrap"
     >

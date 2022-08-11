@@ -4,45 +4,69 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Diseñador Freelancer</title>
-    <link rel="stylesheet" href="../css/normalize.css" />
-    <link href="../css/styles.css" rel="stylesheet" />
+    <title>Diseñador Frelanncer</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="shortcut icon" href="../assets/favicon.png" />
     <link
       href="https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,700;1,400&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="shortcut icon" href="../assets/favicon.png" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
   </head>
   <body>
-    <header>
-      <h1 class="titulo"><a href="../index.html">Luis F Flores <span>Freelancer</span></a></h1>
-    </header>
-    <div class="nav-bg">
-      <nav class="nav-pcl contenedor">
-        <ul>
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="../pages/servicios.html">Servicios</a></li>
-          <li><a href="../pages/clientes.html">Clientes</a></li>
-          <li><a href="../pages/galeria.html">Galeria</a></li>
-          <li><a href="../pages/contacto.html">Contacto</a></li>
-        </ul>
-        <div class="hide">
-          <i class="fa fa-bars" aria-hidden="true"></i> Menu
+    <!--Encabezado-->
+  <header class="container-fluid d-flex justify-content-center bg-header">
+      <p class="text-light mb-0 p-2 fs-2 fw-bold">Luis F Flores <span class="fs-6">Frelanncer</span></p>
+  </header>
+<!--Menu-->
+  <nav class=" bg-header navbar navbar-expand-lg navbar-light p-3 pb-0" id="menu">
+      <div class="container">
+        <a class="navbar-brand" href="../index.html">
+            <span class="fs-2 text-white fw-bold">Frelanncer</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/clientes.html">Clientes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/contacto.html">Contactos</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="email" placeholder="Correo Electronico" aria-label="Suscribete">
+            <button class="btn btn-primary btn-primary-outline-success" type="button">Suscribete</button>
+          </form>
         </div>
-      </nav>
-    </div>
-    <main class="contenedor modservi">
-      <h2 class="ser-th2">Mis Servicios</h2>
+
+      </div>
+    </nav>
+    <!--==============Contenido principal-->
+    <main class="contenedor">
+      <h2 class="fs-2 d-flex justify-content-center pt-5">Mis Servicios</h2>
       <div class="servicios">
         <section class="servicio">
           <h3>Diseño Web</h3>
@@ -68,7 +92,7 @@
               <circle cx="16.5" cy="10.5" r=".5" fill="currentColor" />
             </svg>
           </div>
-          <p class="ser-text3">
+          <p class="">
             Pellentesque odio ex, bibendum quis convallis scelerisque, eleifend
             vitae lectus. Quisque in erat justo. orem ipsum dolor sit amet
             consectetur adipisicing elit. Rerum laborum doloremque magni earum
@@ -121,7 +145,7 @@
               <path d="M12 4a2 2 0 0 0 2 -2a2 2 0 0 0 -2 2" />
             </svg>
           </div>
-          <p class="ser-text3">
+          <p class="">
             Pellentesque odio ex, bibendum quis convallis scelerisque, eleifend
             vitae lectus. Quisque in erat justo. orem ipsum dolor sit amet
             consectetur adipisicing elit. Rerum laborum doloremque magni earum
@@ -151,7 +175,7 @@
               <line x1="11" y1="15" x2="13" y2="15" />
             </svg>
           </div>
-          <p class="ser-text3">
+          <p class="">
             Pellentesque odio ex, bibendum quis convallis scelerisque, eleifend
             vitae lectus. Quisque in erat justo. orem ipsum dolor sit amet
             consectetur adipisicing elit. Rerum laborum doloremque magni earum
@@ -173,18 +197,20 @@
         <a href="#"><i class="bi bi-twitter"></i></a>
         <a href="#"><i class="bi bi-instagram"></i></a>
       </div>
+      <footer
+      class="w-100 d-flex aling-items-center justify-content-center flex-wrap"
+    >
+      <p class="fs-5 px-3 pt-3">
+        Frelanncer. &copy; Todos los derechos reservados 2022
+      </p>
+      <div id="iconos">
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-twitter"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+      </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script>
-      $(".hide").on("click", function () {
-        $("nav ul").toggle("slow");
-      });
-    </script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   </body>
 </html>
