@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
-@import '_variables';
+:root {
+  --blanco: #ffffff;
+  --oscuro: #212121;
+  --primario: #ffc107;
+  --secundario: #0097a7;
+  --gris: #757575;
+  --grisClaro: #dfe9f3;
+}
 /*===============Globales================*/
 html {
   font-size: 62.5%;
@@ -15,9 +22,10 @@ body {
   height: 100vh;
   background: #bccccf !important;
 }
+/*=======================Boton==========*/
 .boton {
-  background-color: $secundario;
-  color: $blanco;
+  background-color: var(--secundario);
+  color: var(--blanco);
   padding: 1rem 3rem;
   margin-top: 3rem;
   font-size: 2rem;

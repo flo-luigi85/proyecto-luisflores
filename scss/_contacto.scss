@@ -1,2 +1,53 @@
+/*========Conatacto / ==================== Formulario*/
 
+.formulario {
+    background-color: var(--gris);
+    width: min(60rem, 100%); /**Utilizar el valor mas pequeño**/
+    margin: auto; /** se usa cuando no tenes display flex arriba, cuando sea tipo block cuyo padre no sea display flex**/
+    padding: 2rem;
+    border-radius: 1rem;
+  }
+  .formulario fieldset {
+    border: none;
+  }
+  .formulario legend {
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: var(--primario);
+  }
+  .campo:nth-child(3),
+  .campo:nth-child(4) {
+    grid-column: 1 / 3;
+  }
+  .campo {
+    margin-bottom: 1rem;
+  }
+  .campo label {
+    color: var(--blanco);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  .campo textarea {
+    height: 20rem;
+  }
+  .input-text {
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+  }
+  .flex {
+    display: flex;
+  }
+  .alinear-derecha {
+    justify-content: flex-end !important;
+    padding-top: 2rem;
+  }
+  .w-sm-100 {
+    width: 100%;
+  }
   
