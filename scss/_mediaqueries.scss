@@ -1,0 +1,24 @@
+@media (min-width: 768px) {
+    .servicios {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* divide las cajas en tres*/
+      column-gap: 26px; /*ancho de separacion*/
+    }
+  }
+  @media (max-width: 1200px) {
+    
+    #local {
+      flex-wrap: wrap;
+      padding-top: 30px;
+      #equipo {
+        width:90% !important;
+        margin:auto;
+    }
+    }
+  
+    .wrapper {
+      width: 90%;
+      margin: auto;
+      padding-top: 50px;
+    }
+  }

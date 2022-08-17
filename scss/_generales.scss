@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+@import '_variables';
+/*===============Globales================*/
+html {
+  font-size: 62.5%;
+  box-sizing: border-box; /*Hack para Box Model*/
+  scroll-snap-type: y mandatory;
+  height: 100%;
+}
+body {
+  font-family: "Motserrat", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: #bccccf !important;
+}
+.boton {
+  background-color: $secundario;
+  color: $blanco;
+  padding: 1rem 3rem;
+  margin-top: 3rem;
+  font-size: 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold; /**=700**/
+  border-radius: 0.5rem;
+  /*width: 90%;*/
+  text-align: center;
+  border: none;
+}
