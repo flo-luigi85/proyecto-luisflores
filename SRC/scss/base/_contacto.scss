@@ -6,18 +6,19 @@
     margin: auto; /** se usa cuando no tenes display flex arriba, cuando sea tipo block cuyo padre no sea display flex**/
     padding: 2rem;
     border-radius: 1rem;
+    fieldset {
+        border: none;
+        legend {
+            text-align: center;
+            font-size: 1.8rem;
+            text-transform: uppercase;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            color: var(--primario);
+          }
+      }
   }
-  .formulario fieldset {
-    border: none;
-  }
-  .formulario legend {
-    text-align: center;
-    font-size: 1.8rem;
-    text-transform: uppercase;
-    font-weight: 700;
-    margin-bottom: 2rem;
-    color: var(--primario);
-  }
+ 
   .campo:nth-child(3),
   .campo:nth-child(4) {
     grid-column: 1 / 3;
