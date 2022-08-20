@@ -1,0 +1,55 @@
+@use 'variables'as v;
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: v.$fuente_principal;
+    font-size: 1.6rem;
+}
+p {
+    font-size: 2rem;
+    columns: v.$oscuro;
+}
+a {
+    text-decoration: none;
+}
+
+.contenedor {
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+h1, h2, h3 {
+    margin: 0 0 5rem 0;
+}
+h1 {
+    font-size: 4rem;
+}
+h2 {
+    font-size: 3.6rem;
+}
+h3 {
+    font-size: 3rem;
+}
+/*=======================Boton==========*/
+.boton {
+    background-color: v.$secundario;
+    color: v.$blanco;
+    padding: 1rem 3rem;
+    margin-top: 3rem;
+    font-size: 2rem;
+    text-decoration: v.$estilo-a;
+    text-transform: uppercase;
+    font-weight: bold; /**=700**/
+    border-radius: 0.5rem;
+    /*width: 90%;*/
+    text-align: center;
+    border: none;
+  }
