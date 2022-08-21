@@ -1,4 +1,3 @@
-@use 'base/variables' as v;
 @media (min-width: 768px) {
     .servicios {
       display: grid;
@@ -47,4 +46,14 @@
     .w-sm-100 {
       width: auto;
     }
+  }
+  @media (max-width: 768px) {
+    .formulario {
+      background-color: map-get($colores, gris);
+      width: 400px;
+      margin: 0 auto;
+      padding: 2rem;
+      border-radius: 1rem;
+    
+  }
   }

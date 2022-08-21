@@ -1,9 +1,9 @@
-@use 'base/variables' as v;
+@import '../variables/variables';
 /*========Conatacto / ==================== Formulario*/
 
 .formulario {
-  background-color: v.$gris;
-  width: min( 60rem, 100% ); /** Utilizar el valor más pequeño **/
+  background-color: map-get($colores, gris);
+  width: map-get($anchoAlt, ancho);
   margin: 0 auto;
   padding: 2rem;
   border-radius: 1rem;
@@ -16,14 +16,14 @@
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 2rem;
-    color: v.$primario;
+    color: map-get($colores, primario);
   }
 }
 
 .campo {
   margin-bottom: 1rem;
   label {
-    color: v.$blanco;
+    color: $blanco;
     font-weight: bold;
     margin-bottom: .5rem;
     display: block;

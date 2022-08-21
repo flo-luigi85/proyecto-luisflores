@@ -1,0 +1,51 @@
+// Tipografia
+$fuente_principal: "Montserrat", sans-serif;
+
+// Colores
+$gris-claro: #dfe9f3;
+$blanco: #ffffff;
+$colores: (
+  gris-claro1: #f9fbfd,
+  azul: #3f33ff,
+  oscuro: #212121,
+  primario: #ffc107,
+  secundario: #0097a7,
+  gris: #757575,
+  naranja: #e59533
+  
+);
+
+// Tamaño de pantallas
+$tamañoPantallas: (
+  telefono: 480px,
+  tablet: 768px,
+  desktop: 992px,
+  desktopXl: 1200px
+);
+
+//Maps
+
+$redes: (
+  fcTwIns: #ffffff
+);
+
+$fuentesG: (
+  thin: 100,
+  light: 300,
+  regular: 400,
+  medium: 500,
+  bold: 700,
+  black: 900
+);
+$sizes: (
+  450: 450px,
+  500: 500px 2,
+  2: 2rem,
+  15: 15px,
+  18: 18px
+);
+$anchoAlt: (
+  todo: 100%,
+  15: 15rem,
+  ancho: 600px
+);

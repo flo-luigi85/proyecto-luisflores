@@ -1,13 +1,16 @@
-@use 'base/variables' as v;
-@use 'base/mixins' as m;
+@import '../variables/variables';
+
 
 /*Header y menu*/
+.bg-header1{
+  background-color: map-get($colores, gris-claro1);
+}
 .bg-header {
-  @include m.heading;
+   background-color: map-get($colores, secundario); 
 }
  
 #menu a {
-  color: v.$blanco;
+  color: $blanco;
   font-size: 18px !important;
   font-weight: 600;
   margin: 0 0.5rem;
@@ -17,8 +20,8 @@
     margin: 0 0.5rem;
   }
   &:hover {
-    background-color: v.$primario;
-    color: v.$oscuro;
+    background-color: map-get($colores, primario);
+    color: map-get($colores, oscuro);
     justify-items: center;
     border-radius: 5px;
   }

@@ -1,9 +1,10 @@
-@import 'variables';
+@import '../variables/variables';
 footer {
-    background: $oscuro;
+    background: map-get($colores, oscuro);
     min-height: 39px;
     position: fixed !important;
     bottom: 0;
+    
     p {
         color: $blanco;
         text-align: center;

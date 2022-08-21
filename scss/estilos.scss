@@ -1,13 +1,14 @@
-@import 'variables';
-@import 'globales';
-@import 'mixins';
-@import 'contacto';
-@import 'header';
-@import 'hero';
-@import 'servicios';
-@import 'mapa';
-@import 'footer';
-@import 'mediaqueries';
+@import './variables/variables';
+@import './base/globales';
+@import './index';
+@import './base/mixins';
+@import './base/contacto';
+@import './base/header';
+@import './base/hero';
+@import './base/servicios';
+@import './base/mapa';
+@import './base/footer';
+@import './base/mediaqueries';
 
 
 

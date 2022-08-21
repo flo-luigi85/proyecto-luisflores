@@ -1,4 +1,4 @@
-@import "variables.scss";
+@import "../variables/variables";
 
 html {
   font-size: 62.5%;
@@ -17,13 +17,18 @@ body {
   font-size: 16px;
   margin: 0;
   padding: 0;
-  height: 100vh;
-  //background-image: linear-gradient(to top, v.$gris-claro 0%, v.$blanco 100% );
+  background-image: linear-gradient(to top, $gris-claro 10%, $blanco 100% );
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
   //background: #bccccf !important;
 }
 p {
   font-size: 2rem;
-  columns: $oscuro;
+  columns: map-get($colores, oscuro);
 }
 a {
   text-decoration: none;
@@ -50,7 +55,7 @@ h3 {
 }
 //=======================Boton==========/
 .boton {
-  background-color: $secundario;
+  background-color: map-get($colores, secundario);
   color: $blanco;
   padding: 1rem 3rem;
   margin-top: 3rem;

@@ -1,7 +1,5 @@
-@import 'variables.scss';
-@mixin heading {
-    background-color: $secundario;
- }
+@import '../variables/variables';
+
 
 @mixin telefono {
     @media (min-width: $telefono) {
@@ -24,6 +22,4 @@
     }
  }
 
- @mixin fondo {
-    background-color: $gris-claro;   
- }
+ 
