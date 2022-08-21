@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Diseñador Frelanncer</title>
-    <link rel="stylesheet" href="./css/estilos.css" />
+    <link rel="stylesheet" href="./build/css/app.css" />
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="shortcut icon" href="../assets/favicon.png" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
@@ -90,7 +90,7 @@
       </div>
     </section>
     <!--Contenido principal / Servicios-->
-    <main class="container sombra">
+    <main class="contenedor sombra">
       <h2 class="fs-1 text-dark d-flex justify-content-center pb-4">Mis Servicios</h2>
      <div class="servicios">
       <section class="servicio">
@@ -229,39 +229,40 @@
     </section>
     <!--==================================Contacto / Formolario-->
     <section>
-      <h2 class="fs-1 text-dark d-flex justify-content-center pt-5 pb-5">Contacto</h2>
-      <form class="formulario pb-5">
-        <fieldset>
-          <legend>Contactános llenando todos los campos</legend>
-          <div>
-            <div class="campo">
-              <label class="fs-3">Nombre</label>
-              <input class="input-text" type="text" placeholder="Tu Nombre" />
-            </div>
-            <div class="campo">
-              <label class="fs-3">Teléfono</label>
-              <input
-                class="input-text"
-                type="tel"
-                placeholder="Tu Teléfono"
-              />
-            </div>
-            <div class="campo">
-              <label class="fs-3">Correo</label>
-              <input class="input-text" type="email" placeholder="Tu Email" />
-            </div>
-            <div class="campo">
-              <label class="fs-3">Mensaje</label>
-              <textarea class="input-text"></textarea>
-            </div>
-          </div>
-          <!--contenedor-campos -->
-          <div class="alinear-derecha flex">
-            <input class="boton w-sm-100" type="submit" value="Enviar" />
-          </div>
-        </fieldset>
+      <h2 class="d-flex justify-content-center fs-1 pt-3 pb-3">Contacto</h2>
+
+      <form class="formulario">
+          <fieldset>
+              <legend>Contactános llenando todos los campos</legend>
+
+              <div class="contenedor-campos">
+                  <div class="campo">
+                      <label class="fs-3">Nombre</label>
+                      <input class="input-text fs-4" type="text" placeholder="Tu Nombre">
+                  </div>
+
+                  <div class="campo">
+                      <label class="fs-3">Teléfono</label>
+                      <input class="input-text fs-4" type="tel" placeholder="Tu Teléfono">
+                  </div>
+
+                  <div class="campo">
+                      <label class="fs-3">Correo</label>
+                      <input class="input-text fs-4" type="email" placeholder="Tu Email">
+                  </div>
+          
+                  <div class="campo">
+                      <label class="fs-3">Mensaje</label>
+                      <textarea class="input-text"></textarea>
+                  </div>
+              </div> <!-- .contenedor-campos -->
+
+              <div class="alinear-derecha flex mt-4">
+                  <input class="boton w-sm-100" type="submit" value="Enviar">
+              </div>
+          </fieldset>
       </form>
-    </section>
+  </section>
   </main>
   <!--========================Footer=================-->
     <footer

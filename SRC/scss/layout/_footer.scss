@@ -1,17 +1,17 @@
-/*==================Footer=========================*/
+@use 'base/variables' as v;
 footer {
-    background: var(--oscuro);
+    background: v.$oscuro;
     min-height: 39px;
     position: fixed !important;
     bottom: 0;
     p {
-        color: var(--blanco);
+        color: v.$blanco;
         text-align: center;
       }
       #iconFooter i {
         font-size: 26px;
         padding-top: 5px;
-        color: var(--blanco);
+        color: v.$blanco;
       }
   }
   

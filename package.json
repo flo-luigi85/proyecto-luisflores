@@ -1,11 +1,10 @@
 {
   "name": "git",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "scripts": {
-    "sass": "sass --watch src/scss:build/css",
-    "css": "gulp css",
-    "dev": "gulp dev"
+    "build-css": "node-sass --include-path scss scss/estilos.scss css/estilos.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "repository": {
     "type": "git",
@@ -18,11 +17,7 @@
   },
   "homepage": "https://github.com/flo-luigi85/proyecto-luisflores#readme",
   "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-plumber": "^1.2.1",
-    "gulp-sass": "^5.1.0",
     "node-sass": "^7.0.1",
-    "nodemon": "^2.0.19",
-    "sass": "^1.54.5"
+    "nodemon": "^2.0.19"
   }
 }
