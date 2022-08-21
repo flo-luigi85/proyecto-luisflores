@@ -1,5 +1,7 @@
 @import 'variables.scss';
-
+@mixin heading {
+    background-color: $secundario;
+ }
 
 @mixin telefono {
     @media (min-width: $telefono) {
@@ -23,5 +25,5 @@
  }
 
  @mixin fondo {
-    background-color: url(../img/hero.jpg) !important;   
+    background-color: $gris-claro;   
  }

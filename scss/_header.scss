@@ -1,8 +1,9 @@
-@import 'variables.scss';
+@import 'variables.';
+
 
 /*Header y menu*/
 .bg-header {
-  @include m.heading;
+   background-color: $secundario !important; 
 }
  
 #menu a {
