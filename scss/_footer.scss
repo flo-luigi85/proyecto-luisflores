@@ -1,0 +1,18 @@
+@import 'variables.scss';
+footer {
+    background: $oscuro;
+    min-height: 39px;
+    position: fixed !important;
+    bottom: 0;
+    p {
+        color: $blanco;
+        text-align: center;
+      }
+      #iconFooter i {
+        font-size: 26px;
+        padding-top: 5px;
+        color: $blanco;
+      }
+  }
+  
+  

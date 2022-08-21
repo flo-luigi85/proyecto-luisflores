@@ -1,0 +1,40 @@
+@import 'variables';
+/*contenido servicios*/
+  .sombra {
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(43, 42, 43, 0.42);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(43, 42, 43, 0.42);
+    box-shadow: 0px 5px 15px 0px rgba(43, 42, 43, 0.42);
+    background-color: $blanco;
+    padding: 6rem;
+    background-origin: 1rem;
+    .servicio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .servicio .iconos {
+        height: 15rem;
+        width: 15rem;
+        background-color: $primario;
+        border-radius: 50%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center; /**display: flex; - justify-content: center; - aling-items: center; CENTRAN UN OBJETO*/
+      }
+  }
+  
+  .cards{
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden; /*oculta lo que sobrepasa de la caja*/
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    &:hover {
+        box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+        transform: translateY(-3%);
+      }
+  }
+  

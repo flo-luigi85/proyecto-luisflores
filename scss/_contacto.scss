@@ -1,0 +1,43 @@
+@import 'variables.scss';
+/*========Conatacto / ==================== Formulario*/
+
+.formulario {
+  background-color: v.$gris;
+  width: min( 60rem, 100% ); /** Utilizar el valor más pequeño **/
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  fieldset {
+    border: none;
+  }
+  legend {
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: $primario;
+  }
+}
+
+.campo {
+  margin-bottom: 1rem;
+  label {
+    color: $blanco;
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block;
+  }
+  textarea {
+    height: 20rem;
+  }
+  .input-text {
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: .5rem;
+  }
+}
+
+
+
