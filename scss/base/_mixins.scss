@@ -1,25 +1,47 @@
-@import '../variables/variables';
+@import "../variables/variables";
 
+@mixin flex-dir-colum-alin-jcont-center {
+  display: flex; /** Display: flex coloca de izq a der (ALINEA HORIZONTALMENTE aplicando flex-direction: column;)**/
+  flex-direction: column;
+  align-items: center; /**Centra el contenido (alineas verticalmente Aplicando justify-content: center;)**/
+  justify-content: center;
+}
+@mixin flex-dir-colum-alin-center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@mixin reset {
+  margin: 0;
+  padding: 0;
+}
+@mixin flex-al-itm-end {
+  display: flex;
+  align-items: flex-end;
+}
+@mixin pt-3-pb-3-rem {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
 
 @mixin telefono {
-    @media (min-width: $telefono) {
-        @content;
-    }
- }
- @mixin tablet {
-    @media (min-width: $tablet) {
-        @content;
-    }
- }
- @mixin desktop {
-    @media (min-width: $desktop) {
-        @content;
-    }
- }
- @mixin desktopXl {
-    @media (min-width: $desktopXl) {
-        @content;
-    }
- }
-
- 
+  @media (min-width: $telefono) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media (min-width: $tablet) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media (min-width: $desktop) {
+    @content;
+  }
+}
+@mixin desktopXl {
+  @media (min-width: $desktopXl) {
+    @content;
+  }
+}

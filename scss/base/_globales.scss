@@ -79,13 +79,13 @@ h3 {
 .boton:hover {
   cursor: pointer;
 }
-.w-sm-100 {
-  width: 100%;
+.alinear-derecha {
+  justify-content: flex-end;
 }
 
 .flex {
   display: flex;
 }
-.alinear-derecha {
-  justify-content: flex-end;
+.w-sm-100 {
+  width: 100%;
 }

@@ -9,9 +9,7 @@
     padding-bottom: 8rem;
     background-origin: 1rem;
     .servicio {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+       @include flex-dir-colum-alin-center;
       }
       .servicio .iconos {
         height: 15rem;
@@ -50,8 +48,7 @@
 /*Clientes*/
 .clientes {
   color: map-get($colores, secundario);
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  @include pt-3-pb-3-rem;
   font-size: 4rem;
 }
 .cards .img-card {
@@ -61,8 +58,8 @@
 .cards .contenido {
   padding: 15px;
   text-align: center;
-}
-.cards .contenido p {
-  color: map-get($colores, oscuro);
-  font-size: 20px;
+  p {
+    color: map-get($colores, oscuro);
+    font-size: 20px;
+  }
 }

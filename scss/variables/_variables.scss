@@ -11,25 +11,21 @@ $colores: (
   primario: #ffc107,
   secundario: #0097a7,
   gris: #757575,
-  naranja: #e59533
-  
+  naranja: #e59533  
 );
 
 // Tamaño de pantallas
-$tamañoPantallas: (
-  telefono: 480px,
-  tablet: 768px,
-  desktop: 992px,
-  desktopXl: 1200px
-);
-
+$telefono: 480px;
+$tablet: 768px;
+$desktop: 992px;
+$desktopXl: 1200px;
 //Maps
 
 $redes: (
   fcTwIns: #ffffff
 );
 
-$fuentesG: (
+$fontW: (
   thin: 100,
   light: 300,
   regular: 400,
@@ -42,7 +38,8 @@ $sizes: (
   500: 500px 2,
   2: 2rem,
   15: 15px,
-  18: 18px
+  18: 18px,
+  5: 5px
 );
 $anchoAlt: (
   todo: 100%,

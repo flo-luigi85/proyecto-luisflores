@@ -23,7 +23,7 @@
     background-color: map-get($colores, primario);
     color: map-get($colores, oscuro);
     justify-items: center;
-    border-radius: 5px;
+    border-radius: map-get($sizes, 5);
   }
 }
  

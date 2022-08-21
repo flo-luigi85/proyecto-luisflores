@@ -73,46 +73,14 @@ h3 {
 .boton:hover {
   cursor: pointer; }
 
-.w-sm-100 {
-  width: 100%; }
+.alinear-derecha {
+  justify-content: flex-end; }
 
 .flex {
   display: flex; }
 
-.alinear-derecha {
-  justify-content: flex-end; }
-
-/*========Conatacto / ==================== Formulario*/
-.formulario {
-  background-color: #757575;
-  width: 600px;
-  margin: 0 auto;
-  padding: 2rem;
-  border-radius: 1rem; }
-  .formulario fieldset {
-    border: none; }
-  .formulario legend {
-    text-align: center;
-    font-size: 1.8rem;
-    text-transform: uppercase;
-    font-weight: 700;
-    margin-bottom: 2rem;
-    color: #ffc107; }
-
-.campo {
-  margin-bottom: 1rem; }
-  .campo label {
-    color: #ffffff;
-    font-weight: bold;
-    margin-bottom: .5rem;
-    display: block; }
-  .campo textarea {
-    height: 20rem; }
-  .campo .input-text {
-    width: 100%;
-    border: none;
-    padding: 1.5rem;
-    border-radius: .5rem; }
+.w-sm-100 {
+  width: 100%; }
 
 /*Header y menu*/
 .bg-header1 {
@@ -228,10 +196,9 @@ h3 {
 .cards .contenido {
   padding: 15px;
   text-align: center; }
-
-.cards .contenido p {
-  color: #212121;
-  font-size: 20px; }
+  .cards .contenido p {
+    color: #212121;
+    font-size: 20px; }
 
 /*================================Mapa*/
 .mapa {
@@ -240,9 +207,11 @@ h3 {
 
 .wrapper {
   display: flex;
+  /** Display: flex coloca de izq a der (ALINEA HORIZONTALMENTE aplicando flex-direction: column;)**/
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  /**Centra el contenido (alineas verticalmente Aplicando justify-content: center;)**/
+  justify-content: center;
   width: 50%;
   margin-left: 100px;
   padding-top: 150px; }
@@ -252,6 +221,38 @@ h3 {
   padding-bottom: 20px;
   display: flex;
   justify-content: center; }
+
+/*========Conatacto / ==================== Formulario*/
+.formulario {
+  background-color: #757575;
+  width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 1rem; }
+  .formulario fieldset {
+    border: none; }
+  .formulario legend {
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: #ffc107; }
+
+.campo {
+  margin-bottom: 1rem; }
+  .campo label {
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block; }
+  .campo textarea {
+    height: 20rem; }
+  .campo .input-text {
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: .5rem; }
 
 footer {
   background: #212121;
