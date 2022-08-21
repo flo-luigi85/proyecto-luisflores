@@ -57,3 +57,14 @@
     
   }
   }
+  @media (max-width: 768px){
+    .cards {
+      @include flex-dir-colum-alin-jcont-center;
+      padding-top: 2rem;
+    }
+    .cards .img-card {
+      width: 90%;
+      height: 210px;
+    }
+  }
+  

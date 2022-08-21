@@ -51,6 +51,10 @@
   @include pt-3-pb-3-rem;
   font-size: 4rem;
 }
+.cards {
+  @include flex-dir-colum-alin-jcont-center;
+  padding-top: 2rem; 
+}
 .cards .img-card {
   width: 100%;
   height: 210px;
