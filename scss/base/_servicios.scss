@@ -21,21 +21,6 @@
         align-items: center; /**display: flex; - justify-content: center; - aling-items: center; CENTRAN UN OBJETO*/
       }
   }
-  
-  .cards{
-    width: 100%;
-    margin: 20px;
-    border-radius: 6px;
-    overflow: hidden; /*oculta lo que sobrepasa de la caja*/
-    background: #fff;
-    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
-    cursor: default;
-    transition: all 400ms ease;
-    &:hover {
-        box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
-        transform: translateY(-3%);
-      }
-  }
  /*==============Galeria=====================*/
 .carousel-inner {
   max-height: 60rem !important;
@@ -51,19 +36,36 @@
   @include pt-3-pb-3-rem;
   font-size: 4rem;
 }
-.cards {
-  @include flex-dir-colum-alin-jcont-center;
-  padding-top: 2rem; 
-}
-.cards .img-card {
-  width: 100%;
+
+.img-card {
+  width: map-get($anchoAlt, todo);
   height: 210px;
 }
-.cards .contenido {
-  padding: 15px;
-  text-align: center;
+.contenido {
+  padding: map-get($sizes, 15);
+  text-align: map-get($anchoAlt, centro);
   p {
     color: map-get($colores, oscuro);
-    font-size: 20px;
+    font-size: map-get($sizes, 20);
+  }
+}
+
+.cards {
+  @include flex-dir-colum-alin-jcont-center;
+  @extend .img-card;
+  padding-top: 2rem; 
+  height: 380px;
+  padding: map-get($sizes ,15);
+  text-align: center;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden; /*oculta lo que sobrepasa de la caja*/
+  background: map-get($colores, gris-claro1);
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  transition: all 400ms ease;
+  &:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
   }
 }

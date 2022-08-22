@@ -161,20 +161,6 @@ h3 {
     align-items: center;
     /**display: flex; - justify-content: center; - aling-items: center; CENTRAN UN OBJETO*/ }
 
-.cards {
-  width: 100%;
-  margin: 20px;
-  border-radius: 6px;
-  overflow: hidden;
-  /*oculta lo que sobrepasa de la caja*/
-  background: #fff;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-  cursor: default;
-  transition: all 400ms ease; }
-  .cards:hover {
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-    transform: translateY(-3%); }
-
 /*==============Galeria=====================*/
 .carousel-inner {
   max-height: 60rem !important; }
@@ -189,6 +175,17 @@ h3 {
   padding-bottom: 3rem;
   font-size: 4rem; }
 
+.img-card, .cards {
+  width: 100%;
+  height: 210px; }
+
+.contenido {
+  padding: 15px;
+  text-align: center; }
+  .contenido p {
+    color: #212121;
+    font-size: 20px; }
+
 .cards {
   display: flex;
   /** Display: flex coloca de izq a der (ALINEA HORIZONTALMENTE aplicando flex-direction: column;)**/
@@ -196,18 +193,21 @@ h3 {
   align-items: center;
   /**Centra el contenido (alineas verticalmente Aplicando justify-content: center;)**/
   justify-content: center;
-  padding-top: 2rem; }
-
-.cards .img-card {
-  width: 100%;
-  height: 210px; }
-
-.cards .contenido {
+  padding-top: 2rem;
+  height: 380px;
   padding: 15px;
-  text-align: center; }
-  .cards .contenido p {
-    color: #212121;
-    font-size: 20px; }
+  text-align: center;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  /*oculta lo que sobrepasa de la caja*/
+  background: #f9fbfd;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  transition: all 400ms ease; }
+  .cards:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%); }
 
 /*================================Mapa*/
 .mapa {
@@ -331,6 +331,6 @@ footer {
     /**Centra el contenido (alineas verticalmente Aplicando justify-content: center;)**/
     justify-content: center;
     padding-top: 2rem; }
-  .cards .img-card {
+  .cards .img-card, .cards .cards {
     width: 90%;
     height: 210px; } }
