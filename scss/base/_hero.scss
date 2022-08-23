@@ -17,13 +17,11 @@
   height: 100%;
   @include flex-dir-colum-alin-jcont-center;
 }
-
 .contenido-hero h2,
 .contenido-hero p {
-  color: $blanco !important;
+  color: map-get($colores, blanco) !important;
   font-weight: map-get($fontW, bold);
 }
-
 .contenido-hero .ubicacion {
   @include flex-al-itm-end;
 }

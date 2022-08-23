@@ -2,8 +2,6 @@
 $fuente_principal: "Montserrat", sans-serif;
 
 // Colores
-$gris-claro: #dfe9f3;
-$blanco: #ffffff;
 $colores: (
   gris-claro1: #f9fbfd,
   azul: #3f33ff,
@@ -11,7 +9,10 @@ $colores: (
   primario: #ffc107,
   secundario: #0097a7,
   gris: #757575,
-  naranja: #e59533  
+  naranja: #e59533,
+  gris-claro: #dfe9f3,
+  blanco: #ffffff,
+  celeste-claro: #85c1e9,
 );
 
 // Tamaño de pantallas
@@ -22,7 +23,7 @@ $desktopXl: 1200px;
 //Maps
 
 $redes: (
-  fcTwIns: #ffffff
+  fcTwIns: #ffffff,
 );
 
 $fontW: (
@@ -31,7 +32,7 @@ $fontW: (
   regular: 400,
   medium: 500,
   bold: 700,
-  black: 900
+  black: 900,
 );
 $sizes: (
   320: 320px,
@@ -42,11 +43,11 @@ $sizes: (
   15: 15px,
   18: 18px,
   20: 20px,
-  5: 5px
+  5: 5px,
 );
 $anchoAlt: (
   todo: 100%,
   15: 15rem,
   ancho: 600px,
-  centro: center
+  centro: center,
 );

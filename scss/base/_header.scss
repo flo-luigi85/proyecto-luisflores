@@ -1,16 +1,17 @@
 @import '../variables/variables';
 
-
 /*Header y menu*/
 .bg-header1{
-  background-color: map-get($colores, gris-claro1);
+  background-color: map-get($colores, oscuro);
+}
+.tex-header {
+  color: map-get($colores, blanco) !important;
 }
 .bg-header {
    background-color: map-get($colores, secundario); 
-}
- 
+} 
 #menu a {
-  color: $blanco;
+  color: map-get($colores, blanco);
   font-size: 18px !important;
   font-weight: 600;
   margin: 0 0.5rem;

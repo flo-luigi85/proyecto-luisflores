@@ -15,7 +15,7 @@ body {
   font-size: 16px;
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(to top, #dfe9f3 10%, #ffffff 100%);
+  background-image: linear-gradient(to top, #85c1e9 10%, #0097a7 40%, #3f33ff 100%);
   min-height: 100vh;
   background-size: cover;
   background-position: center;
@@ -84,7 +84,10 @@ h3 {
 
 /*Header y menu*/
 .bg-header1 {
-  background-color: #f9fbfd; }
+  background-color: #212121; }
+
+.tex-header {
+  color: #ffffff !important; }
 
 .bg-header {
   background-color: #0097a7; }
@@ -196,7 +199,6 @@ h3 {
   padding-top: 2rem;
   height: 380px;
   padding: 15px;
-  text-align: center;
   margin: 20px;
   border-radius: 6px;
   overflow: hidden;

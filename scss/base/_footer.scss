@@ -3,16 +3,15 @@ footer {
     background: map-get($colores, oscuro);
     min-height: 39px;
     position: fixed !important;
-    bottom: 0;
-    
+    bottom: 0;    
     p {
-        color: $blanco;
+        color: map-get($colores, blanco);
         text-align: center;
       }
       #iconFooter i {
         font-size: 26px;
         padding-top: 5px;
-        color: $blanco;
+        color: map-get($colores, blanco);
       }
   }
   

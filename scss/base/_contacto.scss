@@ -1,6 +1,5 @@
 @import '../variables/variables';
 /*========Conatacto / ==================== Formulario*/
-
 .formulario {
   background-color: map-get($colores, gris);
   width: map-get($anchoAlt, ancho);
@@ -19,11 +18,10 @@
     color: map-get($colores, primario);
   }
 }
-
 .campo {
   margin-bottom: 1rem;
   label {
-    color: $blanco;
+    color: map-get($colores, blanco);
     font-weight: bold;
     margin-bottom: .5rem;
     display: block;

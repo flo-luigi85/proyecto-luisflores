@@ -17,15 +17,18 @@ body {
   font-size: 16px;
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(to top, $gris-claro 10%, $blanco 100% );
+  background-image: linear-gradient(
+    to top,
+    map-get($colores, celeste-claro) 10%,
+    map-get($colores, secundario) 40%,
+    map-get($colores, azul) 100%
+  );
   min-height: 100vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-
-  //background: #bccccf !important;
-}
+ }
 p {
   font-size: 2rem;
   columns: map-get($colores, oscuro);
@@ -33,7 +36,6 @@ p {
 a {
   text-decoration: none;
 }
-
 .contenedor {
   width: 95%;
   max-width: 120rem;
@@ -56,7 +58,7 @@ h3 {
 //=======================Boton==========/
 .boton {
   background-color: map-get($colores, secundario);
-  color: $blanco;
+  color: map-get($colores, blanco);
   padding: 1rem 3rem;
   margin-top: 3rem;
   font-size: 2rem;
@@ -72,7 +74,7 @@ h3 {
   -webkit-box-shadow: 0px 5px 15px 0px rgba(43, 42, 43, 0.42);
   -moz-box-shadow: 0px 5px 15px 0px rgba(43, 42, 43, 0.42);
   box-shadow: 0px 5px 15px 0px rgba(43, 42, 43, 0.42);
-  background-color: $blanco;
+  background-color: map-get($colores, blanco);
   padding: 2rem;
   background-origin: 1rem;
 }

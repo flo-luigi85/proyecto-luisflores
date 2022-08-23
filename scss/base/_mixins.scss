@@ -11,7 +11,6 @@
   flex-direction: column;
   align-items: center;
 }
-
 @mixin reset {
   margin: 0;
   padding: 0;
@@ -24,7 +23,6 @@
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
-
 @mixin telefono {
   @media (min-width: $telefono) {
     @content;

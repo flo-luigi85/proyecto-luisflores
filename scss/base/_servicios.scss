@@ -4,7 +4,7 @@
     -webkit-box-shadow: 0px 5px 15px 0px rgba(43, 42, 43, 0.42);
     -moz-box-shadow: 0px 5px 15px 0px rgba(43, 42, 43, 0.42);
     box-shadow: 0px 5px 15px 0px rgba(43, 42, 43, 0.42);
-    background-color: $blanco;
+    background-color: map-get($colores, blanco);
     padding-top: 6rem;
     padding-bottom: 8rem;
     background-origin: 1rem;
@@ -36,7 +36,6 @@
   @include pt-3-pb-3-rem;
   font-size: 4rem;
 }
-
 .img-card {
   width: map-get($anchoAlt, todo);
   height: 210px;
@@ -49,14 +48,13 @@
     font-size: map-get($sizes, 20);
   }
 }
-
 .cards {
   @include flex-dir-colum-alin-jcont-center;
   @extend .img-card;
   padding-top: 2rem; 
   height: 380px;
   padding: map-get($sizes ,15);
-  text-align: center;
+  text-align: map-get($colores, centro);
   margin: 20px;
   border-radius: 6px;
   overflow: hidden; /*oculta lo que sobrepasa de la caja*/
