@@ -85,6 +85,9 @@ h3 {
 /*Header y menu*/
 .bg-header1 {
   background-color: #212121; }
+  .bg-header1 .ancl {
+    text-decoration: none;
+    color: #ffffff !important; }
 
 .tex-header {
   color: #ffffff !important; }
@@ -109,7 +112,7 @@ h3 {
 
 /*contenido hero*/
 .hero {
-  background-image: url(../../img/fondo.png);
+  background-image: url(../../img/hero.jpg);
   background-repeat: no-repeat;
   /*Para que la imagen no se repita cuando se achica*/
   background-size: cover;
@@ -154,6 +157,14 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center; }
+    .sombra .servicio .interL, .sombra .servicio .interL2 {
+      line-height: 3rem;
+      word-spacing: 0.5rem;
+      font-size: 1.7rem !important;
+      font-weight: bold; }
+    .sombra .servicio .interL2 {
+      font-size: 1.3rem;
+      font-weight: 600; }
   .sombra .servicio .iconos {
     height: 15rem;
     width: 15rem;
@@ -163,6 +174,10 @@ h3 {
     justify-content: space-evenly;
     align-items: center;
     /**display: flex; - justify-content: center; - aling-items: center; CENTRAN UN OBJETO*/ }
+
+.contPrin {
+  margin-top: 3rem;
+  border-radius: 0.5rem; }
 
 /*==============Galeria=====================*/
 .carousel-inner {
@@ -325,14 +340,16 @@ footer {
     border-radius: 1rem; } }
 
 @media (max-width: 768px) {
-  .cards {
-    display: flex;
-    /** Display: flex coloca de izq a der (ALINEA HORIZONTALMENTE aplicando flex-direction: column;)**/
-    flex-direction: column;
-    align-items: center;
-    /**Centra el contenido (alineas verticalmente Aplicando justify-content: center;)**/
-    justify-content: center;
-    padding-top: 2rem; }
-  .cards .img-card, .cards .cards {
-    width: 90%;
-    height: 210px; } }
+  .row1 {
+    max-width: 450px; }
+    .row1 .cards {
+      display: flex;
+      /** Display: flex coloca de izq a der (ALINEA HORIZONTALMENTE aplicando flex-direction: column;)**/
+      flex-direction: column;
+      align-items: center;
+      /**Centra el contenido (alineas verticalmente Aplicando justify-content: center;)**/
+      justify-content: center;
+      padding-top: 2rem; }
+      .row1 .cards .img-card, .row1 .cards .cards {
+        width: 300px;
+        height: 240px; } }

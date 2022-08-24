@@ -2,7 +2,7 @@
 
 /*contenido hero*/
 .hero {
-  background-image: url(../../img/fondo.png);
+  background-image: url(../../img/hero.jpg);
   background-repeat: no-repeat; /*Para que la imagen no se repita cuando se achica*/
   background-size: cover; /**Para que ocupe todo el espacio la imagen**/
   height: map-get($sizes, 450);

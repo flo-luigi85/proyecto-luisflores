@@ -3,6 +3,10 @@
 /*Header y menu*/
 .bg-header1{
   background-color: map-get($colores, oscuro);
+  .ancl {
+    text-decoration: none;
+    color: map-get($colores, blanco) !important;
+  }
 }
 .tex-header {
   color: map-get($colores, blanco) !important;

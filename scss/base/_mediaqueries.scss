@@ -51,15 +51,19 @@
       border-radius: 1rem;    
   }
   }
-  @media (max-width: 768px){
-    .cards {
-      @include flex-dir-colum-alin-jcont-center;
-      padding-top: 2rem;
-    }
-    .cards .img-card {
-      width: 90%;
-      height: 210px;
+ 
+
+  @media (max-width: 768px) {
+    .row1 {
+      max-width: 450px;
+      .cards {
+        @include flex-dir-colum-alin-jcont-center;
+        padding-top: 2rem;
+        .img-card {
+          width: 300px;
+          height: 240px;
+        }
     }
   }
-  
+}
   

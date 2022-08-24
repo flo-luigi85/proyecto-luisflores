@@ -10,6 +10,17 @@
     background-origin: 1rem;
     .servicio {
        @include flex-dir-colum-alin-center;
+       .interL {
+        line-height: 3rem;
+        word-spacing: 0.5rem;
+        font-size: 1.7rem !important;
+        font-weight: bold;
+       }
+       .interL2 {
+        @extend .interL;
+        font-size: 1.3rem;
+        font-weight: 600;
+       }
       }
       .servicio .iconos {
         height: 15rem;
@@ -20,6 +31,11 @@
         justify-content: space-evenly;
         align-items: center; /**display: flex; - justify-content: center; - aling-items: center; CENTRAN UN OBJETO*/
       }
+  }
+
+  .contPrin {
+    margin-top: 3rem;
+    border-radius: 0.5rem;
   }
  /*==============Galeria=====================*/
 .carousel-inner {
