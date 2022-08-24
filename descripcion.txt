@@ -1,0 +1,24 @@
+Luis F Flores
+
+
+Estimados/as:
+
+Atentamente,
+
+
+Hice modificaciones en el header agregando un ancla, luego hice las modificaciones con sass en el _header.scss en la clase .bg-header1 .ancl, y nav.
+En algunas páginas cambié el Lorem y me falta por completar, también hice la compresión de las imágenes
+En la página clientes modifiqué la  _mediaqueries.scss  las classes  .row1 .img-card.
+Me hacer el srcset no llegue con el tiempo
+En el heading agregué el meta description y el keywords con los siguientes agregados:
+ 
+ 
+Description: Página clientes, Servicio de Desarrollo Web eficiente y económico, clientes satisfechos">
+Keywords: HTML, JS, Sass, Css, Diseñador, Diseño Web Frelanncer
+
+Saludos
+
+Luis F Flores
+
+
+https://docs.google.com/document/d/1R0LmKNWPjX_-SSnYJDL8BW1DoEz3ncNNS-5xkvO2t54/edit?usp=sharing
