@@ -1,7 +1,7 @@
-@import '../variables/variables';
+@import "../variables/variables";
 
 /*Header y menu*/
-.bg-header1{
+.bg-header1 {
   background-color: map-get($colores, oscuro);
   .ancl {
     text-decoration: none;
@@ -12,8 +12,8 @@
   color: map-get($colores, blanco) !important;
 }
 .bg-header {
-   background-color: map-get($colores, secundario); 
-} 
+  background-color: map-get($colores, secundario);
+}
 #menu a {
   color: map-get($colores, blanco);
   font-size: 18px !important;
@@ -31,4 +31,3 @@
     border-radius: map-get($sizes, 5);
   }
 }
- 
