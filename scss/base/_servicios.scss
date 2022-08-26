@@ -1,13 +1,7 @@
 @import '../variables/variables';
 /*contenido servicios*/
   .sombra {
-    -webkit-box-shadow: 0px 5px 15px 0px rgba(43, 42, 43, 0.42);
-    -moz-box-shadow: 0px 5px 15px 0px rgba(43, 42, 43, 0.42);
-    box-shadow: 0px 5px 15px 0px rgba(43, 42, 43, 0.42);
-    background-color: map-get($colores, blanco);
-    padding-top: 6rem;
-    padding-bottom: 8rem;
-    background-origin: 1rem;
+   @extend .sombra;
     .servicio {
        @include flex-dir-colum-alin-center;
        .interL {
@@ -36,6 +30,7 @@
   .contPrin {
     margin-top: 3rem;
     border-radius: 0.5rem;
+    margin-bottom: 10rem;
   }
  /*==============Galeria=====================*/
 .carousel-inner {
@@ -51,6 +46,11 @@
   color: map-get($colores, secundario);
   @include pt-3-pb-3-rem;
   font-size: 4rem;
+}
+.texClie {
+  margin-bottom: 10rem;
+  color: map-get($colores, azul);
+  font-size: map-get($sizes, 30);
 }
 .img-card {
   width: map-get($anchoAlt, todo);
