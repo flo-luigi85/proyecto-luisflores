@@ -171,7 +171,8 @@ h3 {
 .contPrin {
   margin-top: 3rem;
   border-radius: 0.5rem;
-  margin-bottom: 10rem !important; }
+  padding-bottom: 10rem;
+  margin-bottom: 30rem; }
 
 /*==============Galeria=====================*/
 .carousel-inner {
@@ -379,14 +380,14 @@ footer {
         width: 260px; } }
 
 @media (max-width: 768px) {
-  .texClie {
-    margin-bottom: 10rem;
+  .container .texClie {
+    padding-bottom: 25rem;
     color: #3f33ff;
     font-size: 25px; } }
 
 @media (max-width: 480px) {
   .container .texClie {
-    margin-bottom: 15rem;
+    padding-bottom: 25rem;
     color: red;
     font-size: 20px; } }
 
@@ -394,10 +395,12 @@ footer {
   .contPrin {
     margin-top: 3rem;
     border-radius: 0.5rem;
-    margin-bottom: 15rem; } }
+    margin-bottom: 20rem;
+    padding-bottom: 20rem; } }
 
 @media (max-width: 480px) {
   .contPrin {
     margin-top: 3rem;
     border-radius: 0.5rem;
-    margin-bottom: 15rem; } }
+    margin-bottom: 20rem;
+    padding-bottom: 20rem; } }
