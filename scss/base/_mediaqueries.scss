@@ -48,7 +48,11 @@
       width: 400px;
       margin: 0 auto;
       padding: 2rem;
-      border-radius: 1rem;    
+      border-radius: 1rem;
+      margin-bottom: 10rem;
+      fieldset textarea {
+        height: 10rem;
+      }   
   }
   }
   @media (max-width: 480px) {
@@ -58,7 +62,10 @@
       margin: 0 auto;
       padding: 2rem;
       border-radius: 1rem;
-      margin-bottom: 15rem;   
+      margin-bottom: 10rem;
+      fieldset textarea {
+        height: 10rem;
+      }   
   }
   }
  
@@ -112,16 +119,15 @@
   .contenedor .sombra .contPrin {
     margin-top: 3rem;
     border-radius: 0.5rem;
-    margin-bottom: 20rem;
-    padding-bottom: 20rem;
-   
+    padding-bottom: 3rem;
+    margin-bottom: 10rem;
   }
 }
 @media (max-width: 480px) {
   .contPrin {
     margin-top: 3rem;
     border-radius: 0.5rem;
-    margin-bottom: 20rem;
-    padding-bottom: 20rem;
+    padding-bottom: 3rem;
+    margin-bottom: 10rem;
   }
 }
