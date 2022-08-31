@@ -171,11 +171,11 @@ h3 {
 .contPrin {
   margin-top: 3rem;
   border-radius: 0.5rem;
-  margin-bottom: 10rem; }
+  margin-bottom: 20rem; }
 
 /*==============Galeria=====================*/
 .carousel-inner {
-  max-height: 60rem !important; }
+  max-height: 70rem !important; }
 
 .servi {
   padding-top: 10px; }
@@ -188,7 +188,7 @@ h3 {
   font-size: 4rem; }
 
 .texClie {
-  margin-bottom: 10rem;
+  margin-bottom: 20rem !important;
   color: #3f33ff;
   font-size: 30px; }
 
@@ -336,7 +336,8 @@ footer {
     width: 400px;
     margin: 0 auto;
     padding: 2rem;
-    border-radius: 1rem; } }
+    border-radius: 1rem;
+    margin-bottom: 15rem; } }
 
 @media (max-width: 480px) {
   .formulario {
@@ -349,7 +350,9 @@ footer {
 
 @media (max-width: 768px) {
   .row1 {
-    max-width: 450px; }
+    max-width: 450px;
+    height: 210;
+    margin: 0 auto !important; }
     .row1 .cards {
       display: flex;
       /** Display: flex coloca de izq a der (ALINEA HORIZONTALMENTE aplicando flex-direction: column;)**/
@@ -364,8 +367,9 @@ footer {
 
 @media (max-width: 480px) {
   .row1 {
-    max-width: 320px;
-    height: 210; }
+    max-width: 100%;
+    height: 210;
+    margin: 0 auto !important; }
     .row1 .cards {
       display: flex;
       /** Display: flex coloca de izq a der (ALINEA HORIZONTALMENTE aplicando flex-direction: column;)**/
@@ -379,25 +383,32 @@ footer {
         width: 260px; } }
 
 @media (max-width: 768px) {
-  .texClie {
-    margin-bottom: 10rem;
+  .container .texClie {
+    margin-bottom: 20rem;
+    padding-bottom: 15rem;
     color: #3f33ff;
-    font-size: 25px; } }
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center; } }
 
 @media (max-width: 480px) {
   .container .texClie {
     margin-bottom: 15rem;
-    color: red;
-    font-size: 20px; } }
+    color: #3f33ff;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; } }
 
 @media (max-width: 768px) {
   .contPrin {
-    margin-top: 3rem;
     border-radius: 0.5rem;
-    margin-bottom: 15rem; } }
+    padding-bottom: 10rem;
+    margin: 4rem, 20rem, 0, 0; } }
 
 @media (max-width: 480px) {
   .contPrin {
-    margin-top: 3rem;
     border-radius: 0.5rem;
-    margin-bottom: 15rem; } }
+    padding-bottom: 10rem;
+    margin: 4rem, 20rem, 0, 0; } }
