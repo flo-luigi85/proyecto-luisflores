@@ -1,8 +1,7 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
-  scroll-snap-type: y mandatory;
-  height: 100%; }
+  scroll-snap-type: y mandatory; }
 
 *,
 *:before,
@@ -10,11 +9,11 @@ html {
   box-sizing: inherit; }
 
 body {
+  margin: 0;
+  padding: 0;
   font-family: "Montserrat", sans-serif;
   font-size: 1.6rem;
   font-size: 16px;
-  margin: 0;
-  padding: 0;
   background-image: linear-gradient(to top, #85c1e9 10%, #0097a7 40%, #3f33ff 100%);
   min-height: 100vh;
   background-size: cover;
@@ -171,12 +170,20 @@ h3 {
 .contPrin {
   margin-top: 3rem;
   border-radius: 1rem;
-  margin-bottom: 20rem;
-  padding-bottom: 20rem; }
+  padding-bottom: 5rem;
+  margin-bottom: 10rem; }
 
 /*==============Galeria=====================*/
 .carousel-inner {
   max-height: 70rem !important; }
+
+.container .parrGal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5rem;
+  margin-bottom: 5rem;
+  font-weight: 700; }
 
 .servi {
   padding-top: 10px; }
@@ -189,7 +196,7 @@ h3 {
   font-size: 4rem; }
 
 .texClie {
-  margin-bottom: 20rem !important;
+  margin-bottom: 10rem !important;
   color: #3f33ff;
   font-size: 30px; }
 
@@ -389,31 +396,28 @@ footer {
 
 @media (max-width: 768px) {
   .container .texClie {
-    margin-bottom: 20rem;
-    padding-bottom: 15rem;
     color: #3f33ff;
     font-size: 25px;
     display: flex;
     justify-content: center;
-    align-items: center; } }
+    align-items: center;
+    margin-bottom: 10rem; } }
 
 @media (max-width: 480px) {
   .container .texClie {
-    margin-bottom: 15rem;
     color: #3f33ff;
     font-size: 20px;
     display: flex;
     justify-content: center;
-    align-items: center; } }
+    align-items: center;
+    margin-bottom: 10rem; } }
 
 @media (max-width: 768px) {
   .contPrin {
     border-radius: 0.5rem;
-    padding-bottom: 10rem;
-    margin: 4rem, 20rem, 0, 0; } }
+    margin-bottom: 10rem; } }
 
 @media (max-width: 480px) {
   .contPrin {
     border-radius: 0.5rem;
-    padding-bottom: 10rem;
-    margin: 4rem, 20rem, 0, 0; } }
+    margin-bottom: 10rem; } }

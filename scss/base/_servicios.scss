@@ -30,14 +30,19 @@
   .contPrin {
     margin-top: 3rem;
     border-radius: 1rem;
-    margin-bottom: 20rem;
-    padding-bottom: 20rem;
+    padding-bottom: 5rem;
+    margin-bottom: 10rem;
   }
  /*==============Galeria=====================*/
 .carousel-inner {
   max-height: 70rem !important;
 }
-
+.container .parrGal {
+  @include flex-dir-colum-alin-center;
+  padding-bottom: 5rem;
+  margin-bottom: 5rem;
+  font-weight: map-get($fontW, bold);
+}
 .servi {
   padding-top: 10px;
 }
@@ -49,7 +54,7 @@
   font-size: 4rem;
 }
 .texClie {
-  margin-bottom: 20rem !important;
+  margin-bottom: 10rem !important;
   color: map-get($colores, azul);
   font-size: map-get($sizes, 30);
 }

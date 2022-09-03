@@ -98,39 +98,35 @@
 
 @media (max-width: 768px){
   .container .texClie {
-    margin-bottom: 20rem;
-    padding-bottom: 15rem;
     color: map-get($colores, azul);
     font-size: map-get($sizes, 25);
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10rem;
   }
 }
 
 @media (max-width: 480px) {
   .container .texClie {
-    margin-bottom: 15rem;
     color: map-get($colores, azul);
     font-size: map-get($sizes, 20);
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10rem;
   }
 }
 
 @media (max-width: 768px) {
   .contPrin {
     border-radius: 0.5rem;
-    padding-bottom: 10rem;
-    margin: 4rem, 20rem, 0, 0;
-   
+    margin-bottom: 10rem;
   }
 }
 @media (max-width: 480px) {
   .contPrin {
     border-radius: 0.5rem;
-    padding-bottom: 10rem;
-    margin: 4rem, 20rem, 0, 0;
+    margin-bottom: 10rem;
   }
 }
